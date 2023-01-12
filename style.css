@@ -1,0 +1,112 @@
+body {
+
+    text-align: center;
+    background-color:aqua;
+}
+
+.profile {
+    border-radius: 80%;
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+
+}
+
+#welcome {
+    color: #2208ea;
+    
+    bottom: 0;
+    background: linear-gradient(#060aed 0%, #08f0f0 100%);
+    display:table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: rgb(9, 9, 9);
+    width: 70px;
+    margin: 8px auto;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu {
+    position: fixed;
+    background: rgb(225, 13, 13);
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#writings a {
+    text-decoration: underline !important;
+    color: rgb(22, 6, 74) !important;
+}
+
+
+#videos iframe
+{
+    width: 80%;
+}
+
+
+.myNavbar
+{
+    position:sticky;
+    top:0;
+    z-index:99999;
+    background-color: white;
+}
+
+
